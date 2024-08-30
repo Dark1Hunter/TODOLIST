@@ -92,6 +92,7 @@ function handleTaskClick(event) {
     }
   } else if (target.classList.contains("checkpoint")) {
     const img = target;
+    console.log("dd");
     const line = img.closest(".line");
     const taskText = line
       .querySelector(".plan")

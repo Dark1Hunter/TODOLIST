@@ -2,7 +2,7 @@
   "name": "todolist",
   "version": "1.0.0",
   "description": "Adding tasks app",
-  "default": "index.js",
+  "default": "index.html",
   "scripts": {
     "start": "parcel src/ToDoList.html",
     "dev": "parcel index.html",

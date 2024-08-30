@@ -132,3 +132,4 @@ Promise.all([loadImage(radioImgSrc), loadImage(acceptImgSrc)])
   .catch((error) => {
     console.error("Error loading images:", error);
   });
+console.log("Test");
